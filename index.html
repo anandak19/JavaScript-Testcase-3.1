@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <form action="" class="form-container__form" id="registrationForm" onsubmit="validateForm()">
+            <h1 class="form-container__heading">Registration Form</h1>
+
+            <input type="text" name="firstname" id="firstName" placeholder="First Name" class="form-container__input">
+
+            <input type="text" name="lastname" id="lastName" placeholder="Last Name" class="form-container__input">
+
+            <input type="email" name="email" id="email" autocomplete="off" placeholder="Email" class="form-container__input">
+
+            <input type="number" name="Phone" id="phone" placeholder="Phone" autocomplete="off" class="form-container__input">
+
+            <input type="password" name="password" id="password" placeholder="Password" class="form-container__input">
+
+            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" class="form-container__input">
+            <button type="submit" class="form-container__button">Create Account</button>
+        </form>
+    </div>
+
+    <script src="./assets/javascript/form.js"></script>
+</body>
+</html>
